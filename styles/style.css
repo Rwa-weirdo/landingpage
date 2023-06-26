@@ -1,0 +1,193 @@
+
+
+*{
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+ 
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    padding-left: 300px;
+    padding-right: 300px;
+    width: fit-content;
+}
+
+
+
+.header-box{
+    display: flex;
+    width: 100%;
+ justify-content: space-between;
+ background-color: #1f2937;
+   
+}
+#logo-header-img{
+   
+    width: 100px;
+
+}
+.navbar{
+    
+    text-decoration: none;
+    font-weight: 500;
+     
+    
+   
+    
+}
+.navbar ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 10px 15px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #f9faf8;
+    font-weight: 600;
+
+}
+
+
+
+
+.container-header-box{
+    
+    display: flex;
+    background-color: #1f2936;
+    justify-content: space-between;
+}
+
+.header-text{
+    display:flex;
+    flex-direction: column;
+   margin-left: 45px;
+    
+    
+   
+}
+.header-text h1{
+    font-size: 48px ;
+   text-decoration: none;
+    color: #f9faf8;
+}
+.header-text p{
+    font-size: 18px ;
+    color: #e5e7eb;
+    margin: 10px 0 30px;
+    
+
+}
+.header-text button{
+    background-color: #008CBA; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  
+  font-size: 16px;
+  border-radius:8px;
+}
+
+.welcome-image{
+    display: flex;
+    width: 200px;
+    height: 200px;
+}
+.list-recipe{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+.list-recipe h1 {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: fit-content;
+}
+
+.recipe-container{
+    display: flex;
+    
+
+}
+
+.container-content{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 30px 50px;
+    margin: 20px 50px;
+}
+.container-content img{
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    border-color: #008CBA;
+    box-sizing:content-box;
+}
+
+.testimony{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    height: max-content;
+}
+.testimony h1{
+    font-size: 36px;
+    color:#1f2937;
+    font-style: italic;
+    font-family: cursive;
+
+}
+.testimony p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-size: small;
+    display: flex;
+    justify-content: end;
+
+}
+
+.call-action{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    
+}
+.call-action-container{
+    display: flex;
+    justify-content: space-between;
+   padding: 50px;
+    background-color: #008CBA;
+    border-radius: 12px;
+}
+.call-action-container h1{
+    font-family: cursive;
+    font-size: 30px;
+}
+.call-action-container p{
+    font-size: 12px;
+}
+.sign-btn{  
+    background-color: #008CBA; 
+    border:#f9faf8;
+    width:max-content;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    
+    font-size: 16px;
+    border-radius:12px;
+
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
